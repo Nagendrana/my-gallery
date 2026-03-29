@@ -1,16 +1,69 @@
-# React + Vite
+# 🖼️ React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Demo
+[👉 Click here to view Live Site](my-gallery-3bar9h4d1-nagendran-ns-projects.vercel.app)
 
-Currently, two official plugins are available:
+## 📁 GitHub Repository
+[👉 github.com/Nagendrana/my-gallery](https://github.com/Nagendrana/my-gallery.git)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🗂️ Dynamic image rendering using `map()` method
+- 🧩 Reusable `ImageCard` component with props
+- 🖱️ Hover overlay effect on image cards
+- 🔍 Lightbox — click any image to view full screen
+- 📱 Fully responsive — mobile, tablet & desktop
+- ⚡ Fast loading with `loading="lazy"` on all images
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| React 18 | UI Components |
+| Vite | Build Tool |
+| CSS Grid | Responsive Layout |
+| CSS Variables | Theme System |
+| useState Hook | Lightbox State |
+
+---
+
+## 📂 Project Structure
+```
+src/
+├── components/
+│   ├── ImageCard.jsx     # Single image card component
+│   └── GalleryGrid.jsx   # Maps data → renders cards
+├── data/
+│   └── images.js         # Image data array
+├── App.jsx               # Root component
+└── App.css               # All styles
+```
+
+---
+
+## ⚛️ React Concepts Used
+
+- **Components** — Reusable UI pieces
+- **Props** — Data flow parent → child
+- **map()** — Dynamic list rendering
+- **useState** — Lightbox open/close state
+- **Fragment** — No extra DOM wrappers
+- **Named & Default Exports** — Module system
+--
+## 📸 Images
+
+All images sourced from [Unsplash](https://unsplash.com) — free to use.
+
+---
+
+## 👨‍💻 Author
+
+**Nagendrana**
+
+---
+
+*Built with ❤️ using React JS*
